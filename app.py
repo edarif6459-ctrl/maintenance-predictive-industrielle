@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SOURCE_CSV = os.path.join(BASE_DIR, "ai4i2020.csv")
 LIVE_CSV = os.path.join(BASE_DIR, "ai4i2020_live.csv")   # données + nouvelles saisies
 
-ASSETS = os.path.join(BASE_DIR, "assets")
+ASSETS = BASE_DIR
 
 try:
     _page_icon = Image.open(os.path.join(ASSETS, "logo.png"))
